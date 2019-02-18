@@ -1,5 +1,5 @@
 {
-  "npmScope": "kasper",
+  "npmScope": "workspace",
   "implicitDependencies": {
     "angular.json": "*",
     "package.json": "*",
@@ -7,5 +7,18 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "welcome": {
+      "tags": []
+    },
+    "welcome-e2e": {
+      "tags": []
+    },
+    "angular-dll": {
+      "tags": []
+    },
+    "angular-dll-e2e": {
+      "tags": []
+    }
+  }
 }
